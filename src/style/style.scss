@@ -1,0 +1,17 @@
+@import "media.scss";
+@import "normalize.scss";
+@import "font-awesome.scss";
+
+@font-face {
+  font-family: "Myriad Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/myriadpro/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/myriadpro/MyriadProRegular.woff") format("woff"), url("assets/fonts/myriadpro/MyriadProRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/myriadpro/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/myriadpro/MyriadProBold.woff") format("woff"), url("assets/fonts/myriadpro/MyriadProBold.ttf") format("truetype");
+}
