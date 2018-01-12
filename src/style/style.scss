@@ -1,6 +1,8 @@
 @import "media.scss";
 @import "normalize.scss";
 @import "font-awesome.scss";
+@import "owl.carousel.scss";
+@import "owl.theme.default.scss";
 
 @font-face {
   font-family: "Myriad Pro";
@@ -14,4 +16,125 @@
   font-style: normal;
   font-weight: 700;
   src: url("assets/fonts/myriadpro/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/myriadpro/MyriadProBold.woff") format("woff"), url("assets/fonts/myriadpro/MyriadProBold.ttf") format("truetype");
+}
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	font-size: 16px;
+	font-weight: 400;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.top-navigation {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	z-index: 10;
+}
+.top-navigation--logo {
+	padding: 50px;
+}
+.top-navigation--logo-link {
+	font-family: "Pacifico", sans-serif;
+	font-weight: 400;
+	font-size: 2.2rem;
+	color: #000;
+	text-decoration: none;
+	color: #fff;
+}
+.top-navigation--logo-link span {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+.top-navigation--menu {
+	padding: 50px;
+}
+.top-navigation--menu li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+.top-navigation--menu li:last-child {
+	margin-right: 0;
+}
+.top-navigation--menu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 0.75rem;
+	color: #fff;
+}
+.top-navigation--menu-active {
+	background-color: #e82d3f;
+	padding: 10px 18px;
+	border: 1px solid #e82d3f;
+	border-radius: 18px;
+}
+.design-carousel {
+	position: relative;
+	background-color: #3f270c;
+}
+.design-carousel--img {
+	display: block;
+}
+.design-carousel--img img {
+	width: 100%;
+	display: block;
+	height: auto;
+	opacity: 0.8;
+}
+.design-carousel--content {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+	text-align: center;
+}
+.design-carousel--title {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 7.75rem;
+	color: #fff;
+}
+.design-carousel--info {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: #fff;
+	opacity: 0.8;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.design-carousel--btn {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 25px;
+	border: 2px solid #fff;
+	border-radius: 18px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0);
 }

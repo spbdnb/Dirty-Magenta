@@ -7,7 +7,9 @@
 
 /* Medium Devices, Desktops */
 @media screen and (max-width : 992px) {
-	
+	.top-navigation--menu {
+		display: none;
+	}
 }
 
 /* Small Devices, Tablets */
