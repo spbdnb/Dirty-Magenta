@@ -2,23 +2,139 @@
 
 /* Large Devices, Wide Screens */
 @media screen and (max-width : 1200px) {
-	
+	.top-navigation--logo {
+		padding: 40px;
+	}
+	.top-navigation--logo-link {
+		font-size: 2rem;
+	}
+	.top-navigation--menu {
+		padding: 40px;
+	}
+	.top-navigation--menu li {
+		margin-right: 20px;
+	}
+	.design-carousel--title {
+		font-size: 6rem;
+	}
+	.design-carousel--info {
+		font-size: 1.2rem;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.top-navigation--menu-active {
+		padding: 8px 15px;
+	}
+	.design-carousel--btn {
+		font-size: 0.7rem;
+		padding: 8px 20px;
+	}
+	.owl-theme .owl-nav .owl-prev {
+		margin-left: 40px;
+	}
+	.owl-theme .owl-nav .owl-next {
+		margin-right: 40px;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media screen and (max-width : 992px) {
+	.top-navigation--logo {
+		padding: 30px;
+	}
+	.top-navigation--logo-link {
+		font-size: 1.8rem;
+	}
 	.top-navigation--menu {
 		display: none;
+	}
+	.design-carousel--title {
+		font-size: 5rem;
+	}
+	.design-carousel--info {
+		font-size: 1.0rem;
+		margin-top: 18px;
+		margin-bottom: 26px;
+	}
+	.owl-theme .owl-nav .owl-prev {
+		margin-left: 30px;
+	}
+	.owl-theme .owl-nav .owl-next {
+		margin-right: 30px;
+	}
+	.design-carousel--title {
+		font-size: 4rem;
+	}
+	.design-carousel--info {
+		font-size: 0.9rem;
+		margin-top: 16px;
+		margin-bottom: 24px;
 	}
 }
 
 /* Small Devices, Tablets */
 @media screen and (max-width : 768px) {
-	
+	.top-navigation--logo-link {
+		font-size: 1.6rem;
+	}
+	.menu-btn {
+		font-size: 1.6rem;
+	}
+	.design-carousel--title {
+		font-size: 3rem;
+	}
+	.design-carousel--info {
+		font-size: 0.7rem;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.design-carousel--btn {
+		font-size: 0.6rem;
+		padding: 7px 15px;
+	}
+	.owl-theme .owl-dots {
+		bottom: 2%;
+	}
 }
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
-	
+	.top-navigation--logo {
+		padding: 10px;
+	}
+	#top-navigation--btn {
+		padding: 10px 5px;
+	}
+	.menu-btn {
+		font-size: 1.4rem;
+	}
+	.top-navigation--logo-link {
+		font-size: 1.4rem;
+	}
+	.design-carousel--title {
+		font-size: 1.6rem;
+	}
+	.design-carousel--info {
+		font-size: 0.7rem;
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+	.design-carousel--btn {
+		font-size: 0.6rem;
+		padding: 4px 8px;
+	}
+	.owl-theme .owl-nav .owl-prev {
+		margin-left: 10px;
+	}
+	.owl-theme .owl-nav .owl-next {
+		margin-right: 10px;
+	}
+	.owl-theme .owl-dots {
+		bottom: 0.5%;
+	}
+	.design-carousel--content {
+		top: 35%;
+		max-width: 65%;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -45,7 +161,12 @@
 
 /* Medium Devices, Desktops */
 @media screen and (min-width : 992px) {
-
+	#top-navigation--btn{
+		display: none;
+	}
+	.top-navigation--menu-min {
+		display: none;
+	}
 }
 
  /* Large Devices, Wide Screens */

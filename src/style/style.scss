@@ -3,6 +3,7 @@
 @import "font-awesome.scss";
 @import "owl.carousel.scss";
 @import "owl.theme.default.scss";
+@import "pushy.scss";
 
 @font-face {
   font-family: "Myriad Pro";
@@ -88,6 +89,9 @@ body {
 	border: 1px solid #e82d3f;
 	border-radius: 18px;
 }
+.top-navigation--menu-min-active {
+	background-color: #e82d3f;
+}
 .design-carousel {
 	position: relative;
 	background-color: #3f270c;
@@ -103,7 +107,7 @@ body {
 }
 .design-carousel--content {
 	position: absolute;
-	top: 30%;
+	top: 40%;
 	left: 0;
 	right: 0;
 	margin-left: auto;
