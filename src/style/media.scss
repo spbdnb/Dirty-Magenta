@@ -163,6 +163,23 @@
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
+	.parallax--title {
+		padding-top: 100px;
+		padding-bottom: 60px;
+	}
+	.parallax--content-wrap-title {
+		font-size: 1.6rem;
+	}
+	.parallax--content-wrap-title-min {
+		margin-top: 20px;
+		margin-bottom: 25px;
+		font-size: 0.8rem; 
+		letter-spacing: 2px;
+	}
+	.parallax--content-wrap-info {
+		font-size: 0.7rem;
+		margin-bottom: 100px;
+	}
 }
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
@@ -228,6 +245,31 @@
 	.projects--content-info-text {
 		margin-top: 18px;
 		margin-bottom: 18px;
+	}
+	.parallax--content {
+		display: block;
+	}
+	.parallax--title {
+		padding-top: 80px;
+		width: 80%;
+		margin: 0 auto;
+		font-size: 4rem;
+	}
+	.parallax--content-wrap {
+		width: 60%;
+		display: block;
+		margin: 0 auto
+	}
+	.parallax--content-wrap-title {
+		font-size: 2rem;
+	}
+	.parallax--content-wrap-info {
+		font-size: 0.7rem;
+		margin-bottom: 60px;
+	}
+	.parallax--content-wrap-info:last-child {
+		margin-bottom: 0;
+		padding-bottom: 60px;
 	}
 	
 }

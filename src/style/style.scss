@@ -24,6 +24,7 @@ body {
 	height: 100%;
 	min-width: 320px;
 	position: relative;
+	display: block;
 	overflow-x: hidden;
 	font-size: 16px;
 	font-weight: 400;
@@ -284,4 +285,64 @@ body {
 	background-color: #f5f0eb;
 	border-radius: 19px;
 	cursor: pointer;
+}
+.parallax {
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.parallax:after {
+	background-color: rgba(232, 45, 63, 0.6);
+	content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.parallax--title {
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 4.5rem;
+	padding-bottom: 80px;
+	position: relative;
+	z-index: 2;
+}
+.parallax--content {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+.parallax--content-wrap {
+	width: 27%;
+	text-align: center;
+	display: block;
+	margin: 3%;
+}
+.parallax--content-wrap-title {
+	font-family: "Pacifico", sans-serif;
+	font-weight: 400;
+	font-size: 2.8rem;
+}
+.parallax--content-wrap-title-min {
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 1rem; 
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.parallax--content-wrap-info {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 0.875rem;
+	margin-bottom: 100px;
 }
