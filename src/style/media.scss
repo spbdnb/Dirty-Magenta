@@ -52,6 +52,22 @@
 		font-size: 4rem;
 		line-height: 55px;
 	}
+	.services--content-info {
+		margin-bottom: 60px;
+	}
+	.services--content-column {
+		width: 31%;
+		margin-right: 40px;
+	}
+	.services--content-dirty-top {
+		margin-top: 80px;
+		margin-left: 85px;
+	}
+	.services--content-dirty-bottom {
+		margin-left: 105px;
+		margin-top: 97px;
+		font-size: 1.6rem;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -99,6 +115,32 @@
 	.projects--content-info-text {
 		margin-top: 20px;
 		margin-bottom: 20px;
+	}
+	.services--content-img {
+		display: none;
+	}
+	.services--content {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+	.services--content-column {
+		width: 100%;
+		margin-right: 0;
+	}
+	.services--bottom {
+		display: block;
+		text-align: center;
+	}
+	.services--bottom-title {
+		font-size: 1.25rem;
+		margin: 20px 30px;
+		line-height: 1.5rem;
+	}
+	.services--bottom-link {
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 1rem;
 	}
 }
 
@@ -179,6 +221,44 @@
 	.parallax--content-wrap-info {
 		font-size: 0.7rem;
 		margin-bottom: 100px;
+	}
+	.services--top-title {
+		margin-top: 80px;
+		font-size: 1.5rem;
+	}
+	.services--top-title-min {
+		margin-top: 30px;
+		margin-bottom: 70px;
+		font-size: 1.2rem;
+	}
+	.services--content {
+		width: 70%;
+	}
+	.users--top-title {
+		margin-top: 65px;
+		font-size: 1.5rem;
+		letter-spacing: 4px;
+	}
+	.users--title {
+		font-size: 3.5rem;
+	}
+	.users--content-wrap {
+		width: 32%;
+		margin-right: 20px;
+	}
+	.users--content-info {
+		padding: 15px 15px 20px 15px;
+	}
+	.users--content-info-text {
+		font-size: 0.75rem;
+		line-height: 1rem;
+	}
+	.users--content-info-name {
+		font-size: 0.75rem;
+	}
+	.users--content-info-arrow {
+		font-size: 2rem;
+		margin-top: -24px;
 	}
 }
 /* Extra Small Devices, Phones */
@@ -270,6 +350,37 @@
 	.parallax--content-wrap-info:last-child {
 		margin-bottom: 0;
 		padding-bottom: 60px;
+	}
+	.services--top-title {
+		margin-top: 60px;
+	}
+	.services--top-title-min {
+		margin-bottom: 60px;
+		font-size: 1rem;
+	}
+	.services--content {
+		width: 90%;
+	}
+	.users--top-title {
+		font-size: 1.25rem;
+		letter-spacing: 3px;
+	}
+	.users--title {
+		font-size: 3rem;
+	}
+	.users--content-wrap {
+		width: 33%;
+		margin-right: 6px;
+	}
+	.users--content-info {
+		padding: 2px 2px 5px 2px;
+	}
+	.users--content-info-text {
+		font-size: 0.7rem;
+		line-height: 1rem;
+	}
+	.users--content-info-name {
+		font-size: 0.7rem;
 	}
 	
 }

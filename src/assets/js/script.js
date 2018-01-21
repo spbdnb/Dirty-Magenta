@@ -12,4 +12,17 @@ $(document).ready(function(){
     autoplay: true,
     autoplayTimeout: 5000
   });
+
+  $(".users-carousel").owlCarousel({
+    loop : true,
+    responsiveClass : true,
+    responsive : {
+        0 : {
+            items : 1,
+            nav : true
+        }
+    },
+    autoplay: true,
+    autoplayTimeout: 5000
+  });
 });
