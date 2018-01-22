@@ -19,6 +19,7 @@
   src: url("assets/fonts/myriadpro/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/myriadpro/MyriadProBold.woff") format("woff"), url("assets/fonts/myriadpro/MyriadProBold.ttf") format("truetype");
 }
 body {
+	font-family: "Lato", sans-serif;
 	margin: 0;
 	width: 100%;
 	height: 100%;
@@ -121,13 +122,11 @@ body {
 	text-align: center;
 }
 .design-carousel--title {
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 7.75rem;
 	color: #fff;
 }
 .design-carousel--info {
-	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 1.5rem;
 	color: #fff;
@@ -136,7 +135,6 @@ body {
 	margin-bottom: 35px;
 }
 .design-carousel--btn {
-	font-family: "Lato", sans-serif;
 	font-weight: 700;
 	font-size: 0.75rem;
 	text-transform: uppercase;
@@ -149,7 +147,6 @@ body {
 }
 .magenta {
 	text-align: center;
-	font-family: "Lato", sans-serif;
 }
 .magenta--title {
 	margin-top: 100px;
@@ -175,7 +172,6 @@ body {
 }
 .projects--top-title {
 	text-align: center;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 1.125rem;
 	text-transform: uppercase;
@@ -223,14 +219,12 @@ body {
 	margin-top: 5%;
 }
 .projects--content-info-title {
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 4.5rem;
 	line-height: 65px;
 	text-align: center;
 }
 .projects--content-info-text {
-	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	font-size: 0.875rem;
 	margin-top: 27px;
@@ -238,7 +232,6 @@ body {
 }
 .projects--content-info-btn {
 	background-color: #e82d3f;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 0.625rem; 
 	color: #fff;
@@ -268,14 +261,12 @@ body {
 	padding-bottom: 40px;
 }
 .projects--work-title {
-	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 1.5rem;
 	margin-right: 45px;
 	line-height: 31px;
 }
 .projects--work-btn {
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 0.625rem; 
 	letter-spacing: 3px;
@@ -306,7 +297,6 @@ body {
 	text-align: center;
 	color: #fff;
 	padding-top: 100px;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 4.5rem;
 	padding-bottom: 80px;
@@ -334,14 +324,12 @@ body {
 .parallax--content-wrap-title-min {
 	margin-top: 25px;
 	margin-bottom: 30px;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 1rem; 
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
 .parallax--content-wrap-info {
-	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 0.875rem;
 	margin-bottom: 100px;
@@ -349,7 +337,6 @@ body {
 .services--top-title {
 	text-align: center;
 	margin-top: 100px;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 1.875rem;
 	text-transform: uppercase;
@@ -359,7 +346,6 @@ body {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 80px;
-	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 1.5rem;
 }
@@ -389,7 +375,6 @@ body {
 	margin-top: 85px;
 	margin-left: 90px;
 	padding: 8px 6px;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 0.75rem;
 	letter-spacing: 3px;
@@ -429,7 +414,6 @@ body {
 	text-align: left;
 }
 .services--content-info-title {
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 0.75rem;
 	text-transform: uppercase;
@@ -437,7 +421,6 @@ body {
 	margin-bottom: 20px;
 }
 .services--content-info-text {
-	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
@@ -450,14 +433,12 @@ body {
 	padding-bottom: 45px;
 }
 .services--bottom-title {
-	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 1.5rem;
 	line-height: 2.25rem;
 	margin-right: 10px;
 }
 .services--bottom-link {
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 1.25rem;
 	text-decoration: none;
@@ -467,7 +448,6 @@ body {
 	margin-right: 20px;
 }
 .services--bottom-btn {
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 0.75rem;
 	text-transform: uppercase;
@@ -485,7 +465,6 @@ body {
 .users--top-title {
 	text-align: center;
 	margin-top: 75px;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 1.875rem;
 	text-transform: uppercase;
@@ -495,7 +474,6 @@ body {
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 70px;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 4.5rem;
 }
@@ -521,7 +499,6 @@ body {
 	text-align: left;
 }
 .users--content-info-text {
-	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 1.125rem;
 	line-height: 1.5rem;
@@ -538,7 +515,6 @@ body {
 }
 .users--content-info-name {
 	margin-top: 25px;
-	font-family: "Lato", sans-serif;
 	font-weight: 900;
 	font-size: 1rem;
 }
@@ -553,4 +529,155 @@ body {
 .users--content-info-arrow {
 	font-size: 3rem;
 	margin-top: -35px;
+}
+.worked--title {
+	text-align: center;
+	margin-top: 65px;
+	margin-bottom: 60px;
+	color: #3c3c3c;
+	font-weight: 900;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+.worked--nav-wrap {
+	text-align: center;
+	margin-bottom: 70px;
+}
+.worked--nav-wrap li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 70px;
+	position: relative;
+}
+.worked--nav-wrap li:last-child {
+	margin-right: 0;
+}
+.worked--nav-wrap li:nth-child(3) {
+	top: 10px;
+}
+.worked--nav-wrap li:nth-child(4) {
+	top: 4px;
+}
+.worked--nav-wrap li:nth-child(5) {
+	top: -2px;
+}
+.worked--nav-img {
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+.worked--nav-img:hover {
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.worked--line {
+	height: 1px;
+	background-color: #ccc;
+	border: none;
+}
+.blog--top {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+.blog--top-title {
+	font-weight: 900;
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin-bottom: 35px;
+}
+.blog--top-info {
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.blog--content-nav-wrap {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.blog--content-nav-wrap li {
+	list-style-type: none;
+	display: inline-block;
+	width: 22.5%;
+	margin-right: 30px;
+	position: relative;
+	text-align: left;
+}
+.blog--content-nav-wrap li:last-child {
+	margin-right: 0;
+}
+.blog--content-nav-wrap li:nth-child(3) {
+	top: 20px;
+}
+.blog--content-nav-link {
+	text-decoration: none;
+}
+.blog--content-nav-link:before {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+.blog--content-nav-img img {
+	width: 100%;
+	height: auto;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.blog--content-nav-title {
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 0.625rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	position: relative;
+	color: #333;
+}
+.blog--content-nav-title i {
+	font-size: 0.5rem;
+}
+.blog--content-nav-title span {
+	color: #7ab8b8;
+}
+.blog--content-nav-title-min {
+	font-weight: 900;
+	font-size: 1rem;
+	line-height: 1.4rem;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.blog--content-nav-info {
+	font-weight: 400;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+.blog--bottom {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 65px;
+	margin-top: 70px;
+}
+.blog--bottom-title {
+	margin-right: 20px;
+	font-weight: 300;
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+}
+.blog--bottom-btn {
+	font-weight: 900;
+	font-size: 0.625rem;
+	text-transform: uppercase;
+	background-color: #e82d2e;
+	border: 1px solid #e82d2e;
+	color: #fff;
+	cursor: pointer;
+	padding: 13px 23px;
+	border-radius: 20px;
 }
